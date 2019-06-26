@@ -1,0 +1,110 @@
+# vis
+r2d3
+corrplot
+cowplot
+esquisse
+sunburstR
+rpivotTable
+viridis
+sugrrants
+ggalluvial
+git+git://github.com/ricardo-bion/ggradar
+git+git://github.com/thomasp85/gganimate
+git+git://github.com/trinker/plotflow
+# shiny
+flexdashboard
+crosstalk
+reactlog
+plotcache
+ipc
+# ML
+embed
+SuperLearner
+git+git://github.com/rstudio/sparklyr
+git+git://github.com/rstudio/graphframes
+h2o
+tfdatasets
+tfdeploy
+tfestimators
+tfruns
+mlflow
+onnx
+pmml
+mboost
+bst
+inTrees
+git+git://github.com/linxihui/NNLM
+rsparse
+FactoMineR
+factoextra
+git+git://github.com/dariyasydykova/tidyroc
+# NLP
+textrecipes
+udpipe
+spacyr
+stringdist
+git+git://github.com/cbail/textnets
+stm
+# Optim
+RcppDE
+quadprog
+mlrMBO
+# Timeseries
+dynlm
+dlmodeler
+tidyquant
+vars
+#bsts
+changepoint
+git+git://github.com/twitter/BreakoutDetection
+ForecastComb
+forecastHybrid
+# Modeling
+panelr
+L0Learn
+bmrm
+pscl
+VGAM
+bayesm
+pcLasso
+pliable
+walker
+blavaan
+git+git://github.com/mattansb/tidylavaan
+nimble
+bayestestR
+rstantools
+# Graph/Network/Tree
+git+git://github.com/schochastics/snahelper
+netrankr
+egor
+ergm
+# avoid R-3.6.0 depend
+#ergm==3.9.4
+dodgr
+ggdag
+# EDA
+DescTools
+# Dev
+attachment
+sessioninfo
+# Web
+uaparserjs
+urltools
+# Util
+pryr
+pacman
+datapasta
+janitor
+Unicode
+proxy
+git+git://github.com/r-lib/fastmap
+# Misc
+arulesCBA
+ChannelAttribution
+recommenderlab
+googleAuthR
+bigQueryR
+bigrquery
+cloudml
+googleCloudStorageR

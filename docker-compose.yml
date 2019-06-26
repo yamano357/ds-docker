@@ -1,0 +1,31 @@
+version: "3"
+services:
+  r:
+    build:
+      context: "."
+      dockerfile: r-centos7-devtoolset8/r.Dockerfile
+      args:
+        - R_VER=3.6.0
+        - CRAN_REPOS=https://cran.ism.ac.jp/
+    image: r-centos7-devtoolset8
+    container_name: r-centos7-devtoolset8
+  rpy:
+    build:
+      context: "./rpy-mlnlp"
+      dockerfile: Dockerfile
+      args:
+        - CRAN_REPOS=https://cran.ism.ac.jp/
+    image: rpy-mlnlp
+    container_name: rpy-mlnlp
+  rpysrvny:
+    build:
+      context: "./rstudioserver-shiny"
+      dockerfile: Dockerfile
+      args:
+        - RSTUDIO_VER=1.2.1335
+        - SHINY_VER=1.5.9.923
+        - CRAN_REPOS=https://cran.ism.ac.jp/
+        - PASSWORD=rstudio
+    image: rstudioserver-shiny
+    container_name: rstudioserver-shiny
+    restart: always

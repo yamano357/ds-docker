@@ -1,0 +1,162 @@
+# Vis
+htmlwidgets
+DT
+networkD3
+leaflet
+dygraphs
+visNetwork
+DiagrammeR
+plotly
+GGally
+gridExtra
+ggridges
+ggrepel
+git+git://github.com/thomasp85/patchwork
+bayesplot
+ggmcmc
+shinystan
+LDAvis
+# Shiny
+shiny
+shinydashboard
+# ML
+caret
+tidymodels
+mlr
+tensorflow
+keras
+git+git://github.com/rstudio/tfprobability
+kernlab
+e1071
+glmnet
+randomForest
+ranger
+xgboost
+rpart
+partykit
+lime
+DALEX
+iml
+flexmix
+fastcluster
+NMF
+FeatureHashing
+Rtsne
+uwot
+# NLP
+text2vec
+tm
+tidytext
+quanteda
+topicmodels
+lda
+utf8
+# Optim
+optimx
+ROI
+nloptr
+Rglpk
+Rsolnp
+glpkAPI
+lpSolve
+lpSolveAPI
+ompr
+minqa
+# Timeseries
+lubridate
+forecast
+dlm
+KFAS
+prophet
+anomalize
+TSclust
+dtwclust
+tsibble
+tibbletime
+timetk
+sweep
+PerformanceAnalytics
+# Imputation
+Amelia
+mice
+miceadds
+naniar
+# Modeling
+mlogit
+lme4
+glmm
+coda
+BayesFactor
+psych
+rstan
+rstanarm
+brms
+greta
+tidybayes
+# Graph/Network/Tree
+igraph
+graphlayouts
+tidygraph
+data.tree
+tidytree
+bioc::release/Rgraphviz
+bioc::release/RBGL
+bioc::release/ggtree
+ggraph
+gRain
+gRbase
+network
+# Survival
+survival
+survtmle
+# EDA
+skimr
+summarytools
+DataExplorer
+ggstatsplot
+inspectdf
+# HPC
+vroom
+future
+doFuture
+furrr
+purrrlyr
+feather
+fs
+slam
+SparseM
+# Dev
+devtools
+roxygen2
+pkgbuild
+pkgdown
+lintr
+styler
+usethis
+here
+mockery
+cli
+crayon
+prettycode
+# Reproducible
+knitr
+rmarkdown
+stargazer
+drake
+# Web
+splashr
+# Util
+sloop
+lobstr
+tidylog
+reticulate
+V8
+# Misc
+arules
+arulesViz
+arulesSequences
+rngtools
+fpc
+# avoid R-3.6.0 depend
+#rngtools==1.3.1
+#fpc==2.1-11.1
